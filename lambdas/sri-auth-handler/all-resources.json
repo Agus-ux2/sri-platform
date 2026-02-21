@@ -1,0 +1,94 @@
+﻿{
+    "items": [
+        {
+            "id": "0hhkw2",
+            "parentId": "245wln8k3h",
+            "pathPart": "auth",
+            "path": "/auth"
+        },
+        {
+            "id": "1offt5",
+            "parentId": "5lye0l",
+            "pathPart": "quality",
+            "path": "/ctgs/{ctgNumber}/quality",
+            "resourceMethods": {
+                "GET": {},
+                "OPTIONS": {}
+            }
+        },
+        {
+            "id": "245wln8k3h",
+            "path": "/"
+        },
+        {
+            "id": "487tl0",
+            "parentId": "0hhkw2",
+            "pathPart": "me",
+            "path": "/auth/me"
+        },
+        {
+            "id": "5lye0l",
+            "parentId": "a4mpo8",
+            "pathPart": "{ctgNumber}",
+            "path": "/ctgs/{ctgNumber}"
+        },
+        {
+            "id": "a4betd",
+            "parentId": "qeld5m",
+            "pathPart": "recalculate",
+            "path": "/settlements/{id}/recalculate",
+            "resourceMethods": {
+                "OPTIONS": {},
+                "POST": {}
+            }
+        },
+        {
+            "id": "a4mpo8",
+            "parentId": "245wln8k3h",
+            "pathPart": "ctgs",
+            "path": "/ctgs"
+        },
+        {
+            "id": "aac74a",
+            "parentId": "g9syj7",
+            "pathPart": "upload",
+            "path": "/settlements/upload",
+            "resourceMethods": {
+                "OPTIONS": {},
+                "POST": {}
+            }
+        },
+        {
+            "id": "g9syj7",
+            "parentId": "245wln8k3h",
+            "pathPart": "settlements",
+            "path": "/settlements",
+            "resourceMethods": {
+                "GET": {},
+                "OPTIONS": {}
+            }
+        },
+        {
+            "id": "qeld5m",
+            "parentId": "g9syj7",
+            "pathPart": "{id}",
+            "path": "/settlements/{id}",
+            "resourceMethods": {
+                "GET": {},
+                "OPTIONS": {}
+            }
+        },
+        {
+            "id": "sheu2o",
+            "parentId": "0hhkw2",
+            "pathPart": "register",
+            "path": "/auth/register"
+        },
+        {
+            "id": "t464k9",
+            "parentId": "0hhkw2",
+            "pathPart": "login",
+            "path": "/auth/login"
+        }
+    ]
+}

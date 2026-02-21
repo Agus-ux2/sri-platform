@@ -1,0 +1,39 @@
+﻿{
+    "FunctionName": "sri-auth-handler",
+    "FunctionArn": "arn:aws:lambda:us-east-1:248825820462:function:sri-auth-handler",
+    "Runtime": "nodejs18.x",
+    "Role": "arn:aws:iam::248825820462:role/sri-control-plane-prod-SettlementsListFunctionRole-6rFWoWOCyJlY",
+    "Handler": "index.handler",
+    "CodeSize": 368169,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 256,
+    "LastModified": "2026-02-07T16:39:56.256+0000",
+    "CodeSha256": "Po9+Dkj4ndvpWqDUvXxKsy8Z+1pvxsUTC7R9lPAMK0c=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "f1aa65fb-84d0-44e8-960e-df2177c936e5",
+    "State": "Pending",
+    "StateReason": "The function is being created.",
+    "StateReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-east-1::runtime:9a9659568bf79d197303268f6f12daf1b07196863769ffdfec56057ebf0b0553"
+    },
+    "LoggingConfig": {
+        "LogFormat": "Text",
+        "LogGroup": "/aws/lambda/sri-auth-handler"
+    }
+}

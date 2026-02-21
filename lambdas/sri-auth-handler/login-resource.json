@@ -1,0 +1,12 @@
+﻿[
+    {
+        "id": "t464k9",
+        "parentId": "0hhkw2",
+        "pathPart": "login",
+        "path": "/auth/login",
+        "resourceMethods": {
+            "OPTIONS": {},
+            "POST": {}
+        }
+    }
+]

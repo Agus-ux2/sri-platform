@@ -1,0 +1,9 @@
+{
+    "name": "sri-authorizer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "jsonwebtoken": "^9.0.2"
+    }
+}

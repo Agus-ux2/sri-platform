@@ -1,0 +1,22 @@
+﻿[
+    {
+        "Name": "sri-settlements-upload",
+        "Role": "arn:aws:iam::248825820462:role/sri-control-plane-prod-SettlementsUploadFunctionRol-b8ETmleNV1KA"
+    },
+    {
+        "Name": "sri-settlements-list",
+        "Role": "arn:aws:iam::248825820462:role/sri-control-plane-prod-SettlementsListFunctionRole-6rFWoWOCyJlY"
+    },
+    {
+        "Name": "sri-quality-calculate",
+        "Role": "arn:aws:iam::248825820462:role/sri-control-plane-prod-QualityCalculateFunctionRole-kNIcTQenlzfe"
+    },
+    {
+        "Name": "sri-settlements-recalculate",
+        "Role": "arn:aws:iam::248825820462:role/sri-control-plane-prod-SettlementsRecalculateFuncti-fuGNeb26C9NB"
+    },
+    {
+        "Name": "sri-settlements-detail",
+        "Role": "arn:aws:iam::248825820462:role/sri-control-plane-prod-SettlementsDetailFunctionRol-kzDbVNkzlGym"
+    }
+]

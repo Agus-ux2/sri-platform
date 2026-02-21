@@ -1,0 +1,16 @@
+{
+    "name": "stocks-handler",
+    "version": "1.0.0",
+    "description": "Handles grain stock operations",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "esbuild": "^0.20.0",
+        "@prisma/client": "^5.0.0",
+        "@types/aws-lambda": "^8.10.0",
+        "@types/node": "^18.0.0",
+        "typescript": "^5.0.0"
+    }
+}
